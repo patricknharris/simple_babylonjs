@@ -1,0 +1,22 @@
+{
+  "name": "simple_babylonjs",
+  "version": "1.0.0",
+  "description": "A simple NodeJs Express webserver.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patricknharris/simple_babylonjs.git"
+  },
+  "author": "Patrick N Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patricknharris/simple_babylonjs/issues"
+  },
+  "homepage": "https://github.com/patricknharris/simple_babylonjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

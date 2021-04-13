@@ -1,9 +1,11 @@
-var express = require('express');
+
+var express = require('express')
 var app     = express();
 var http    = require('http').Server(app);
-
+const path = require('path')
+const PORT = process.env.PORT || 5000
 app.use(express.static(__dirname + '/public'));
 
-http.listen(5000, function() {
-  console.log("Server is listening; loaded");
-});
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
